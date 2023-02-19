@@ -1,0 +1,22 @@
+<nav class="nav nav-pills nav-fill">
+    <h2>Title</h2>
+    <h2>Listen</h2>
+</nav>
+<section class="section">
+<div>
+    <ul>
+    {{#each result}}
+        <li>{{name}}</li>
+    {{/each}}
+    </ul>
+</div>
+<div>
+    <ul>
+    {{#each result}}
+        <li><a href="{{external_urls.spotify}}" target="_blank">{{external_urls.spotify}}</a></li>
+    {{/each}}
+    </ul>
+
+</div>
+
+</section>

@@ -1,0 +1,10 @@
+<h2 class="fw-bolder text-warning">Albums for: </h2>
+<article>
+{{#each result}}
+    <div class="article">        
+        <img src="{{images.1.url}}" alt="">
+        <p  class="text-danger-emphasis bg-dark fw-bold" >{{name}}</p>
+        <a href="/albums/tracks/{{id}}" class="btn btn-danger">View all tracks</a>
+    </div>
+{{/each}}
+</article>
